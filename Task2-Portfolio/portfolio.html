@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css"
+    <script src="https://kit.fontawesome.com/a5e0d22417.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="data:image/png;base64,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" class="logo">
+                <ul>
+                    <li><a href="#header"><b>Home</b></a></li>
+                    <li><a href="#About"><b>About</b></a></li>
+                    <li><a href="#services"><b>Services</b></a></li>
+                    <li><a href="#skill"><b>Skills</b></a></li>
+                    <li><a href="#contact"><b>Contact</b></a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                        <h1>HI, I'm <span>Lokesh</span>.</h1>
+            <h4>Web Developer</h4>
+            </div>
+        </div>
+        <div id="About">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/my.jpeg" alt="my photo">
+                        
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title"> About Me</h1>
+                        <p id="para">A passionate student from Andhra University College of Enggineering ,
+                            diving into the realme of Information Technology,aimimg to master the art of webdevelopment and 
+                            java programming and many more with boundless curiosity and hunger of knowledge. 
+                        </p> 
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <!-- <p class="tab-links"></p> -->
+                            <p class="tab-links"  onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li> <span>Web Development</span><br>Designing Web Applications</li>
+                                <li> <span>App Development</span><br>Building Android/ios apps</li>
+                                <li> <span>UI/UX</span><br>Designing web/app interfaces</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li> <span>2020-2024</span><br>Bachelor of Information Technology</li>
+                                <li> <span>2018-2020</span><br>intermediate M.P.C Stream(class11,12)</li>
+                                <li> <span>2018</span><br> Schooling SSC (Class 10)</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- ---services--- -->
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> My Services</h1>
+            <div class="services-list">
+                <div>
+                    <!-- <i class="fa-solid fa-wand-magic-sparkles"></i> -->
+                    <h2>Web Design</h2>
+                    <p> creating the design and layout of a website or web pages</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <!-- <i class="fa-solid fa-code"></i> -->
+                    <h2>java Developer</h2>
+                    <p>  Responsible for developing applications and software using the Java programming language</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <!-- <i class="fa-brands fa-wordpress" style="color: #f7f3f3;"></i> -->
+                    <h2>Web Development</h2>
+                    <p>refers to the creating, building, and maintaining of websites</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---portfolio--- -->
+    <h1 class="sub-titleinPortfolio">My Skills</h1>
+    <div id="skill">
+        <div class="container">
+            
+            <ul><h3>HTML</h3>
+                <span class="bar"><span class="html"></span></span>
+            </ul>
+            <ul><h3>CSS</h3>
+                <span class="bar"><span class="css"></span></span>
+            </ul>
+            <ul><h3>JAVA SCRIPT</h3>
+                <span class="bar"><span class="javascript"></span></span>
+            </ul>
+            <ul><h3>JAVA</h3>
+                <span class="bar"><span class="java"></span></span>
+            </ul>
+            
+        </div>              
+    </div>
+   <!--  ---contact--- -->
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa fa-envelope"></i>       lokeshvuddagiri81@gmail.com</p>
+                <p><i class="fa fa-phone" ></i>       6305234346</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa fa-facebook-f"></i>    facebook</a>
+                    <a href=""><i class="fa fa-twitter"></i>     twitter</a>
+                    <a href=""><i class="fa fa-instagram"></i>  Instagram</a>
+                    <a href=""><i class="fa fa-linkedin"></i>    Linkedin</a>
+                </div>
+                <!-- <a href="" class="btn">Download CV</a> -->
+            </div>
+            <div class="contact-right" align="center"></div>
+            <form name="submit-to-google-sheet" class="response">
+                <input type="text" name="Name" placeholder="Your Name" required><br>
+                <input type="email" name="Email" placeholder="Your Email" required><br>
+                <textarea name="Message" rows="5" placeholder="Your Message"></textarea><br>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Created by VUDDAGIRI LOKESH<!-- |©2023 All rights reserved--></p> 
+    </div>
+   </div>
+   
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzXU2dZqzkd3BrzyEFoRvSdliiDkUkLAVxfu69p7qagE9i15QliHjORkR4iV2n9jo99Aw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{
+                msg.innerHTML =" Message sent succesfully"
+                setTimeout(function(){
+                    msg.innerHTML =""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+</body>
+</html>
